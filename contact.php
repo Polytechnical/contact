@@ -3,7 +3,7 @@ $name= $POST['email'];
 $visitor_email= $_POST['email'];
 $message= $_POST['message'];
 
-$email_from= 'contact646.cf';
+$email_from= 'https://polytechnical.github.io/contact/';
 $email_subject= "new form submission";
 $email_body= "user name: $name\n".
 "user email: $visitor_email.\n".
